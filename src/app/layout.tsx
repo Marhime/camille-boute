@@ -3,13 +3,13 @@ import { Roboto, Lora } from "next/font/google";
 import "./globals.css";
 import Navigation from "./components/Navigation";
 
-export const lora = Lora({
+const lora = Lora({
   variable: "--font-lora",
   weight: ["400", "500", "700"],
   subsets: ["latin"],
 });
 
-export const roboto = Roboto({
+const roboto = Roboto({
   weight: ["300", "400", "700"],
   variable: "--font-roboto",
   subsets: ["latin"],
