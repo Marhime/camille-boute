@@ -14,7 +14,7 @@ export default function WhoAmISection() {
         <div className="w-full lg:w-3/5">
           <h2 className="font-lora text-2xl lg:text-5xl max-w-[576px] mt-8 lg:mt-0">
             Camille Bouté
-            <span className="block text-sm lg:text-xl">
+            <span className="block text-sm lg:text-xl text-[#448862]">
               Phytothérapeute - Aromathérapeute
             </span>
           </h2>
