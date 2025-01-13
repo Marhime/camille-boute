@@ -38,12 +38,12 @@ export default function Navigation() {
   return (
     <nav className="fixed top-0 left-0 right-0 xl:top-4 xl:left-4 xl:right-4 flex justify-between items-center p-4 xl:px-6 bg-background z-20 xl:rounded-full">
       <Link className="flex flex-col" href="/">
-        <h1 className="text-[#454545] text-2xl font-bold">Camille Bouté</h1>
+        <h1 className="text-[#2a2a2a] text-2xl font-bold">Camille Bouté</h1>
         <h2 className="text-sm text-[#448862]">
           Phytothérapeute - Aromathérapeute
         </h2>
       </Link>
-      <ul className="hidden gap-6 text-[#454545] md:flex">
+      <ul className="hidden gap-6 text-[#2a2a2a] md:flex">
         <li>
           <Link className="text-md font-medium link" href="#phyto">
             Phytothérapie
@@ -66,7 +66,7 @@ export default function Navigation() {
       {/* mobile only */}
       <div className="md:hidden">
         <button
-          className="text-[#454545] focus:outline-none"
+          className="text-[#2a2a2a] focus:outline-none"
           aria-label="Ouvrir le menu"
           onClick={() => setMenuOpen(true)}
         >
@@ -93,13 +93,13 @@ export default function Navigation() {
       >
         <div className="flex justify-between items-center">
           <Link className="flex flex-col" href="/">
-            <h1 className="text-[#454545] text-2xl font-bold">Camille Bouté</h1>
+            <h1 className="text-[#2a2a2a] text-2xl font-bold">Camille Bouté</h1>
             <h2 className="text-sm text-[#448862]">
               Phytothérapeute - Aromathérapeute
             </h2>
           </Link>
           <button
-            className="text-[#454545] focus:outline-none"
+            className="text-[#2a2a2a] focus:outline-none"
             aria-label="Fermer le menu"
             onClick={() => setMenuOpen(false)}
           >
@@ -120,7 +120,7 @@ export default function Navigation() {
             </svg>
           </button>
         </div>
-        <ul className="gap-12 text-[#454545] flex flex-col items-center justify-center h-full">
+        <ul className="gap-12 text-[#2a2a2a] flex flex-col items-center justify-center h-full">
           <li>
             <a
               className="text-2xl font-medium"

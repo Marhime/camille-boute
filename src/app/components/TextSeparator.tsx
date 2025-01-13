@@ -3,7 +3,7 @@ import React from "react";
 
 export default function TextSeparator() {
   return (
-    <div className="flex items-center justify-center w-full px-6 py-12 lg:pt-36 lg:pb-52">
+    <div className="flex items-center justify-center w-full px-6 py-12 lg:pt-36 lg:pb-52 min-h-screen">
       <div className="max-w-[1068px] flex flex-col items-center justify-center">
         <Image
           className="h-[80px] md:h-[100px] w-auto"

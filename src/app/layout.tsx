@@ -30,10 +30,25 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <body className={`${lora.variable} ${roboto.variable} antialiased`}>
+      <body
+        className={`${lora.variable} ${roboto.variable} antialiased bg-background`}
+      >
         <div className="bg-body"></div>
         <Navigation />
         {children}
+        <footer className="row-start-3 flex gap-6 flex-wrap items-center bg-[#edeae1] justify-center p-3 bg-background">
+          <p>
+            Site réalisé par{" "}
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="mailto:contact@marhi.me"
+              className="underline underline-offset-4"
+            >
+              Maxime Joyes
+            </a>
+          </p>
+        </footer>
       </body>
     </html>
   );

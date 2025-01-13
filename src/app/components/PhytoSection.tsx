@@ -1,12 +1,11 @@
 import Image from "next/image";
-import Link from "next/link";
 import React from "react";
 
 export default function PhytoSection() {
   return (
     <section
       id="phyto"
-      className="py-12 lg:pt-36 lg:pb-24 bg-white rounded-3xl w-full relative max-lg:space-y-12"
+      className="py-12 lg:pt-36 lg:pb-24 bg-[#edeae1] rounded-3xl w-full relative max-lg:space-y-12"
     >
       <div className="h-8 absolute top-0 w-full bg-background -z-10" />
       <Image
@@ -78,12 +77,12 @@ export default function PhytoSection() {
         priority
       />
       <div className="mt-40 flex justify-center">
-        <Link
-          className="inline-block text-md font-semibold px-6 py-3 text-[#448862] border border-[#448862] rounded-full"
+        <a
+          className="text-md font-bold px-6 py-3 text-[#448862] border border-[#448862] rounded-full button custom-ease"
           href="tel:0642424242"
         >
-          Prendre rendez-vous
-        </Link>
+          <span className="relative z-10">Prendre rendez-vous</span>
+        </a>
       </div>
     </section>
   );

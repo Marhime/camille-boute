@@ -5,7 +5,7 @@ export default function WhoAmISection() {
   return (
     <section
       id="qui-suis-je"
-      className="py-12 lg:py-24 px-6 lg:px-14 bg-white rounded-t-3xl w-full relative"
+      className="py-12 lg:py-24 px-6 lg:px-14 bg-[#edeae1] rounded-t-3xl w-full relative"
     >
       <p className="text-xs uppercase font-bold text-gray-400 mb-4">
         Qui suis-je ?

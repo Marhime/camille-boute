@@ -10,7 +10,7 @@ type Props = {
 
 export default function InfoCard({ stat, description, icon, alt }: Props) {
   return (
-    <div className="p-6 md:pt-12 md:px-10 bg-[#ACCDB2] text-white rounded-3xl">
+    <div className="p-6 md:pt-12 md:px-10 bg-[#448862] text-white rounded-3xl">
       <p className="text-4xl md:text-6xl font-medium mb-2 md:mb-8">{stat}</p>
       <p className="md:text-xl font-light">{description}</p>
       <Image

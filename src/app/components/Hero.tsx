@@ -1,10 +1,10 @@
 // hero component
-import Image from "next/image";
 import React from "react";
+import { BackgroundImage } from "./BackgroundImage";
 
 export default function Hero() {
   return (
-    <section className="p-6 lg:px-14 pt-28 lg:pt-44">
+    <section className="p-6 lg:px-14 pt-28 lg:pt-44 w-full">
       <div className="flex justify-center w-full">
         <div className="max-w-[1068px]">
           <p className="text-2xl lg:text-[40px] font-lora leading-normal">
@@ -27,14 +27,7 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <Image
-        className="mt-12 lg:mt-28 h-56 lg:h-[467px] rounded-3xl object-cover"
-        src="/bg-phyto.jpg"
-        alt="Phytothérapie et aromathérapie"
-        width={1920}
-        height={467}
-        priority
-      />
+      <BackgroundImage />
     </section>
   );
 }
