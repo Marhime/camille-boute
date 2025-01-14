@@ -38,8 +38,10 @@ export default function Navigation() {
   return (
     <nav className="fixed top-0 left-0 right-0 xl:top-4 xl:left-4 xl:right-4 flex justify-between items-center p-4 xl:px-6 bg-background z-20 xl:rounded-full">
       <Link className="flex flex-col" href="/">
-        <h1 className="text-[#2a2a2a] text-2xl font-bold">Camille Bouté</h1>
-        <h2 className="text-sm text-[#448862]">
+        <h1 className="text-[#448862] text-2xl font-lora font-bold leading-none">
+          Camille Bouté
+        </h1>
+        <h2 className="text-sm text-[#2a2a2a]">
           Phytothérapeute - Aromathérapeute
         </h2>
       </Link>
@@ -57,7 +59,7 @@ export default function Navigation() {
         <li>
           <Link
             className="text-md font-semibold px-6 py-3 text-[#448862] border border-[#448862] rounded-full button"
-            href="tel:0642424242"
+            href="tel:0782281827"
           >
             <span className="relative z-10">Prendre rendez-vous</span>
           </Link>
@@ -140,7 +142,7 @@ export default function Navigation() {
           <li>
             <Link
               className="text-2xl font-semibold px-6 py-3 text-[#448862] border border-[#448862] rounded-full"
-              href="tel:0642424242"
+              href="tel:0782281827"
             >
               Prendre rendez-vous
             </Link>

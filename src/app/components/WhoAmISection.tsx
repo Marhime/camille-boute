@@ -7,7 +7,7 @@ export default function WhoAmISection() {
       id="qui-suis-je"
       className="py-12 lg:py-24 px-6 lg:px-14 bg-[#edeae1] rounded-t-3xl w-full relative"
     >
-      <p className="text-xs uppercase font-bold text-gray-400 mb-4">
+      <p className="text-xs uppercase font-bold text-[#448862] mb-4">
         Qui suis-je ?
       </p>
       <div className="mx-auto flex items-center flex-col-reverse lg:flex-row">
