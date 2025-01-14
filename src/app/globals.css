@@ -108,3 +108,7 @@ body {
   border-radius: 8px;
   background-position: 50% 0px;
 }
+
+.blurred {
+  filter: blur(5px);
+}
