@@ -17,7 +17,7 @@ export default function Hero() {
           <div className="flex items-center gap-4 md:gap-8 mt-8">
             <a
               className="text-md font-bold px-6 py-3 text-[#448862] border border-[#448862] rounded-full button custom-ease"
-              href="tel:0642424242"
+              href="tel:0782281827"
             >
               <span className="relative z-10">Prendre rendez-vous</span>
             </a>
